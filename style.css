@@ -1,4 +1,44 @@
-.footer{
-  margin-left : 80px;
-  font-size : 18px;
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 2fr 1fr 2fr;
+  grid-column-gap: 1em;
+}
+
+.heroes,
+.villains {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 10em;
+}
+
+.hero1,
+.hero2,
+.villain1,
+.villain2 {
+  border-radius: 5px;
+  box-shadow: 0px 0px 2px 2px grey;
+  margin: 10px;
+  padding: 1rem;
+  text-align: center;
+}
+
+.strength,
+.score {
+  font-size: 3em;
+  text-align: center;
+}
+
+.footer {
+  margin-left: 80px;
+  font-size: 18px;
+}
+
+.footer {
+  margin-left: 80px;
+  font-size: 18px;
 }
